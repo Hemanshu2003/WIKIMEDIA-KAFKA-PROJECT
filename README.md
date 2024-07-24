@@ -75,6 +75,12 @@ The Wikimedia Recent Changes Analyzer is a project that showcases the working an
    nodemon start
    ```
 
+   - `locahost:3000`
+   ![API](https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT/blob/main/client/img/api.png)
+
+   - `locahost:3000/data-source`
+   ![dat](https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT/blob/main/client/img/datasource.png)
+
 5. **Start LiveServer**
    - Open `client`
    - Open `index.html`
