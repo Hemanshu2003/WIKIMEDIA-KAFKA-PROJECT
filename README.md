@@ -34,32 +34,30 @@ The Wikimedia Recent Changes Analyzer is a project that showcases the working an
    ```
 
 2. **Setup docker Environment ( for devlopment )**
-   1. Download Docker Desktop from the [Docker official website](https://www.docker.com/).
-   2. Run Docker Application.
-   3. In `WIKIMEDIA-KAFKA-PROJECT`
+   - Download Docker Desktop from the [Docker official website](https://www.docker.com/).
+   - Run Docker Application.
+   - In `WIKIMEDIA-KAFKA-PROJECT`
    ```
    cd doker
    docker-compose up kafka-cluster
    ```
-   4. 
-   - Linux / Mac:
+   - Run landoop
+      - Linux / Mac:
    ```
    docker run --rm -it -v "$(pwd)":/tutorial --net=host landoop/fast-data-dev:cp3.3.0 bash
    ```
-   - Windows Command Line:
+      - Windows Command Line:
    ```
    docker run --rm -it -v %cd%:/tutorial --net=host landoop/fast-data-dev:cp3.3.0 bash
    ```
-   5. Launch the kafka in standalone mode
+   - Launch the kafka in standalone mode
    ```
    cd /tutorial/run
    ```
-   6. Create the topic we write to with 3 partitions
+   - Create the topic we write to with 3 partitions
    ```
    kafka-topics --create --topic wikimedia-recent-change --partitions 3 --replication-factor 1 --bootstrap-server 127.0.0.1:9092
-   ```
-   7. 
-   ```
+
    connect-standalone worker.properties file-stream-demo-standalone.properties
    ```
 
