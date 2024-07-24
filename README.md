@@ -79,11 +79,13 @@ The Wikimedia Recent Changes Analyzer is a project that showcases the working an
    ![API](https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT/blob/main/client/img/api.png)
 
    - `locahost:3000/data-source`
-   ![dat](https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT/blob/main/client/img/datasource.png)
+   ![data-source](https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT/blob/main/client/img/datasource.png)- `locahost:3000/data-source`
+   
 
 5. **Start LiveServer**
    - Open `client`
    - Open `index.html`
+   ![frontend](https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT/blob/main/client/img/frontendpng)
 
 
 
