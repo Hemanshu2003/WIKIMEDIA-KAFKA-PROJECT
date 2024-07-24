@@ -1,6 +1,6 @@
-const CLUSTER_BOOTSTRAP_URL = 'pkc-921jm.us-east-2.aws.confluent.cloud:9092';
-const CLUSTER_API_KEY = '4OJ7VLTLOU723I4U';
-const CLUSTER_API_SECRET = '1U4D5gJvVK0gVsLZvsUJBiM+IpUHsEn0Qwzyz0aJTknKIHDF5NDRq1KdxpOj3pOU';
+const CLUSTER_BOOTSTRAP_URL = '<---BOOTSTRAP_URL--->';
+const CLUSTER_API_KEY = '<---API_KEY--->';
+const CLUSTER_API_SECRET = '<---API_SECRET--->';
 
 const CONSUMER_PROPERTIES = {
   'bootstrap.servers': `${CLUSTER_BOOTSTRAP_URL}`,
