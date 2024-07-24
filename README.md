@@ -3,39 +3,34 @@
 
 This project analyzes recent changes on Wikimedia properties using Apache Kafka. It provides real-time visualizations of the data, allowing users to interact with the charts and filter dynamically. The charts update with new events as they are fetched from the API.
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgements](#acknowledgements)
 
 ## Overview
 The Wikimedia Recent Changes Analyzer is a project that showcases the working and implementation of basic concepts of Apache Kafka. The application fetches real-time data on recent changes made on Wikimedia properties, processes this data using Kafka, and displays it through interactive charts on a web interface.
+
+### The working model shown as below
+
+![working](https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT/blob/main/client/img/wikimedia-project-working.png)
 
 ## Features
 - Real-time data processing with Apache Kafka
 - Interactive charts for data visualization
 - Dynamic filtering and updating of charts with new events
-- Scalable architecture using Docker and Confluent Cloud
+- Scalable architecture using Confluent Cloud
 
 ## Tech Stack
 - **Apache Kafka**: For real-time data streaming and processing
 - **HTML/CSS/JavaScript**: Frontend technologies for the web interface
-- **Java**: Backend processing and Kafka integration
-- **Confluent Cloud**: Managed Kafka service
-- **Docker**: Containerization of the application
-- **Landoop**: For easy setup of Kafka environment
-- **Express**: Backend framework for serving the web application
+- **Java**: Producing Data to Kafka topic
+- **Confluent Cloud**: Managed Kafka service (*production mode*)
+- **Docker**: Containerization of the application (*development mode*)
+- **Landoop**: For easy setup of Kafka environment (*development mode*)
+- **Express**: Backend framework for consuming data from Kafka topic and  serving the web application
 
 ## Installation
 1. **Clone the Repository**
    ```
-   git clone https://github.com/yourusername/Wikimedia-Recent-Changes-Analyzer.git
-   cd Wikimedia-Recent-Changes-Analyzer
+   git clone https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT.git
+   cd WIKIMEDIA-KAFKA-PROJECT
    ```
 
 2. **Setup Kafka Environment**
