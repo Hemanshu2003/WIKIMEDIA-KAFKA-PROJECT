@@ -85,7 +85,7 @@ The Wikimedia Recent Changes Analyzer is a project that showcases the working an
 5. **Start LiveServer**
    - Open `client`
    - Open `index.html`
-   ![frontend](https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT/blob/main/client/img/frontendpng)
+   ![frontend](https://github.com/Hemanshu2003/WIKIMEDIA-KAFKA-PROJECT/blob/main/client/img/frontend.png)
 
 
 
